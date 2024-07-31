@@ -1,9 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import ChemicalApp from "./components/ChemicalApp";
 
 function App() {
   return (
     <div className="">
-        <h1>Hello World!!!</h1>
+      <ChemicalApp/>
     </div>
   );
 }

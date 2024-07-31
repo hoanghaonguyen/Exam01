@@ -2,6 +2,7 @@
   "name": "buoi8b",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hoanghaonguyen.github.io/Exam01",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "@testing-library/jest-dom": "^5.17.0",
@@ -15,6 +16,7 @@
     "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
     "reactstrap": "^9.2.2",
+    "sweetalert2": "^11.12.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
