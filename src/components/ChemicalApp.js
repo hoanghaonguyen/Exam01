@@ -9,8 +9,10 @@ import {
   deleteChemical,
   editChemical,
 } from "../redux/chemicalSlice";
+import SearchBar from "./SearchBar";
 
 export default function ChemicalApp() {
+  const Swal = require("sweetalert2");
   const dispatch = useDispatch();
   // lay danh sach cac hop chat
   const chemicals = useSelector((state) => state.chemicals.chemicals);
@@ -35,6 +37,7 @@ export default function ChemicalApp() {
     <div>
       <Container className="text-center">
         <h1>Chemical App</h1>
+        <SearchBar/>
         <AddChemical handle_Add={handle_Add} />
         <Table bordered hover>
           <thead>
